@@ -32,6 +32,7 @@ Install it from the app's **STC Archive** page once it is listed in the
 
 ```
 strategicum-plugin.json         manifest (required)
+HELP.md                         help shown in the app's manual (optional)
 themes/<id>/theme.json          displayName, description, author, version, isMobileCompatible
 themes/<id>/theme.css           :root custom properties only; nothing loaded from the internet
 themes/<id>/preview.png         optional, 300x180
@@ -52,6 +53,15 @@ recommended, since you cannot know which models a user has), `voice`,
 `knowledge_plugin_libraries` — names of Codex libraries **this plugin**
 contributes; the app links them to the persona on install. Any other key is
 dropped.
+
+## Help and credits (app 3.4.0+)
+
+`help` names a Markdown file in the plugin (here `HELP.md`, at most 100 KB) and
+`credits` lists who made or contributed what (`[{name, for?, url?}]`, at most
+30 entries, `https://` links only). The app shows both in its manual, in a
+section of the *Plugin Help* chapter, with the plugin's version and author.
+Your headings there become sub-headings of that section; images and HTML are
+not shown.
 
 ## License
 
