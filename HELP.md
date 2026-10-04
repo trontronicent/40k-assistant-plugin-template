@@ -2,6 +2,8 @@
 
 The reference plugin of the 40k Assistant: it shows what a plugin can add.
 
+Made by **Reto Kummer alias Reat Kay**.
+
 ## What you get
 
 - **Ember Forge** - a dark theme with forge-orange accents; pick it in the theme selector.
