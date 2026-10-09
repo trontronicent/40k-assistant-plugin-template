@@ -3,7 +3,7 @@
   "manifest_version": 1,
   "id": "example-stc",
   "name": "Example STC",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Reference plugin: the Ember Forge theme, the Lexicanum Adept persona and a small Codex library.",
   "author": {
     "name": "Reto Kummer alias Reat Kay",

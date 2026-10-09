@@ -12,8 +12,13 @@ Made by **Reto Kummer alias Reat Kay**.
 
 ## Using it
 
-Install it under **Plugins → Manage plugins**. The theme, the persona and the
-library appear where the app's own ones are; removing the plugin removes them.
+This app version installs only plugins that bring a **backend** module. A plugin
+that contributes a theme, a persona or a Codex library — as this one does — is
+listed in the STC Archive with the note that it cannot be installed yet, because
+those adapters are not built. Nothing is missing on your side.
+
+It is still the reference for anyone writing a plugin: the manifest, the theme,
+the persona and the Codex documents here are the formats the app validates.
 
 ## Making your own plugin
 
